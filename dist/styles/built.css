@@ -574,10 +574,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
     border: 2px solid #5BB75B;
 }
 
-.slideDrawer {
-	white-space: normal;
-}
-
 .slideSnapshot > .overlay {
 	transform-origin: 0 0;
 	-webkit-transform-origin: 0 0;
@@ -586,13 +582,15 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 }
 
 .slideDrawer {
+	white-space: normal;
 	transform-origin: 0 0;
 	-webkit-transform-origin: 0 0;
 	-moz-transform-origin: 0 0;
 	position: relative;
 	background-size: cover;
 	background-position: center;
-  	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 .slideDrawer .transformContainer {
@@ -605,6 +603,7 @@ transform-origin: 0 0;
 position: absolute;
 line-height: normal;
 }
+
 .wellContextMenu {
   /*z-index: 2;*/
 }
@@ -916,6 +915,7 @@ body {
 
 .component.transitionSlideSnapshot .content {
 	outline: 0px;
+	overflow: hidden;
 }
 
 .component.editable .content {
@@ -1150,6 +1150,7 @@ body {
 
 .logo-bg {
 	background-image: url('img/strut-logo-32-light.png');
+	background-repeat: no-repeat;
 	display: inline-block;
 	width: 100px;
 	height: 32px;
@@ -1176,6 +1177,7 @@ body {
 	position: absolute;
 	right: 5px;
 }
+
 .header .divider-vertical {
 	height: 54px;
 }
