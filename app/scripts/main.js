@@ -23,7 +23,6 @@ require.config({
     	// build - rmap
     	'strut/presentation_generator/bespoke': '../bundles/app/strut.presentation_generator.bespoke',
     	'strut/presentation_generator/reveal': '../bundles/app/strut.presentation_generator.reveal',
-    	'strut/presentation_generator/handouts': '../bundles/app/strut.presentation_generator.handouts',
     	'strut/deck': '../bundles/app/strut.deck',
     	'strut/startup': '../bundles/app/strut.startup',
     	'strut/editor': '../bundles/app/strut.editor',
