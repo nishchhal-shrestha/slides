@@ -1,7 +1,7 @@
 node_modules
 *.gz
 temp/
-#dist/
+dist/
 deprecated/
 .DS_STORE
 .tmp/
